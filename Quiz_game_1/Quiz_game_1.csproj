@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bg_pause-03.png" />
+    <None Remove="instructions-05.png" />
+    <None Remove="logo-04.png" />
+    <None Remove="pausebg-03.png" />
+    <None Remove="quiz_gamebg2-02.png" />
+    <None Remove="quiz_gamebg3-02.png" />
+    <None Remove="quiz_game_bg-02.png" />
+    <None Remove="quiz_game_bg.png" />
+    <None Remove="quiz_game_logo-01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bg_pause-03.png" />
+    <Resource Include="instructions-05.png" />
+    <Resource Include="logo-04.png" />
+    <Resource Include="pausebg-03.png" />
+    <Resource Include="quiz_gamebg2-02.png" />
+    <Resource Include="quiz_gamebg3-02.png" />
+    <Resource Include="quiz_game_bg-02.png" />
+    <Resource Include="quiz_game_bg.png" />
+    <Resource Include="quiz_game_logo-01.png" />
+  </ItemGroup>
+
+</Project>
